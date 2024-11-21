@@ -12,7 +12,7 @@ const Banner = () => {
       setMovie(
         request.data.results[
           Math.floor(Math.random() * request.data.results.length )
-        ]
+        ] 
       );
       return request;
     }
